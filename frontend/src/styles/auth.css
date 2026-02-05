@@ -1,0 +1,92 @@
+/* Full screen center */
+.auth-container {
+  width: 100vw;          /* full width */
+  height: 100vh;         /* full height */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f4f6fb; /* solid blue */
+}
+.dash-container {
+  width: 100vw;
+  height: 100vh;
+  display:flex;
+  background-color: #f4f6fb;
+}
+
+/* Dashboard card = full screen */
+.dash-card {
+  width: 100%;
+  height: 100%;
+  padding: 40px;
+  background-color: white;
+  box-sizing: border-box;
+}
+
+
+/* Bigger card */
+.auth-card {
+  width: 100%;
+  max-width: 520px;        /* 👈 makes card BIG */
+  background: #c4c1c1;
+  padding: 40px 35px;      /* 👈 more inner space */
+  border-radius: 14px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading */
+.auth-card h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  font-size: 26px;
+  color: #1f2937;
+}
+
+/* Inputs */
+.auth-input {
+  width: 100%;
+  padding: 14px 16px;     /* 👈 bigger inputs */
+  margin-bottom: 16px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: 1px solid #d1d5db;
+  outline: none;
+}
+
+.auth-input:focus {
+  border-color: #7b2cbf;
+}
+
+.auth-btn {
+  width: 60%;
+  padding: 14px;
+  background-color: #7b2cbf;
+  color: white;
+  font-size: 17px;
+  font-weight: 500;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  display: block;
+  margin: 0 auto;   /* 👈 centers the button */
+}
+
+
+.auth-btn:hover {
+  background-color: #5a189a;
+}
+
+/* Link text */
+.auth-card p {
+  font-size: 15px;
+}
+
+.auth-card a {
+  color: #7b2cbf;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.auth-card a:hover {
+  text-decoration: underline;
+}

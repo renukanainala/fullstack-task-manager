@@ -1,0 +1,108 @@
+/* FULL SCREEN /* BACKGROUND */
+.dash-bg {
+  width: 100vw;
+  min-height: 100vh;      /* 🔥 allow growth */
+  background: linear-gradient(135deg, #5a189a, #ffffff);
+  padding: 30px;
+  box-sizing: border-box;
+  overflow-y: auto;       /* enable vertical scrolling */
+}
+
+
+/* TOP BAR */
+.dash-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  margin-bottom: 30px;
+}
+
+.logout-btn {
+  background-color: #ff4d4f;
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.task-title {
+  font-size: 18px;
+  font-weight: 600;
+  color: #2d2d2d;
+}
+
+
+/* MAIN CARD */
+.dash-main {
+  background-color: white;
+  height: calc(100% - 80px);
+  border-radius: 14px;
+  padding: 30px;
+  overflow-y: auto;
+}
+
+/* INPUT SECTION */
+.task-input-box {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 25px;
+  
+}
+
+.dash-input {
+  flex: 1;
+  padding: 12px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.add-task-btn {
+  padding: 12px 20px;
+  background-color: #7b2cbf;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* TASK LIST */
+.task-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.task-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f4f6fb;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+/* TASK ACTION BUTTONS */
+.task-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.edit-btn {
+  background-color: #5a189a;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.delete-btn {
+  background-color: #e63946;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+}
